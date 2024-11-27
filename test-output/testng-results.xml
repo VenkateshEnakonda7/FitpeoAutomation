@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-26T20:55:44 IST" name="Master Suite" finished-at="2024-11-26T20:56:02 IST" duration-ms="17664">
+    <groups>
+    </groups>
+    <test started-at="2024-11-26T20:55:44 IST" name="Test" finished-at="2024-11-26T20:56:02 IST" duration-ms="17664">
+      <class name="com.fitpeo.testcase.TC001_HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fitpeo.testcase.TC001_HomePageTest@1fdfafd2]" started-at="2024-11-26T20:55:45 IST" name="setUp" finished-at="2024-11-26T20:55:51 IST" duration-ms="6582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_navigation_of_homepage()[pri:0, instance:com.fitpeo.testcase.TC001_HomePageTest@1fdfafd2]" started-at="2024-11-26T20:55:51 IST" name="verify_navigation_of_homepage" finished-at="2024-11-26T20:55:51 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_navigation_of_homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fitpeo.testcase.TC001_HomePageTest@1fdfafd2]" started-at="2024-11-26T20:55:51 IST" name="tearDown" finished-at="2024-11-26T20:55:52 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fitpeo.testcase.TC001_HomePageTest -->
+      <class name="com.fitpeo.testcase.TC002_RevenueCalculatorTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:55:52 IST" name="setUp" finished-at="2024-11-26T20:55:57 IST" duration-ms="5158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_navigation_of_revenue_calculator()[pri:1, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:55:57 IST" name="verify_navigation_of_revenue_calculator" finished-at="2024-11-26T20:55:59 IST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_navigation_of_revenue_calculator -->
+        <test-method signature="verify_page_is_scrollable_till_the_slider()[pri:2, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:55:59 IST" name="verify_page_is_scrollable_till_the_slider" finished-at="2024-11-26T20:55:59 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_page_is_scrollable_till_the_slider -->
+        <test-method signature="verify_the_slider_is_adjustable_till_the_value()[pri:3, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:55:59 IST" name="verify_the_slider_is_adjustable_till_the_value" finished-at="2024-11-26T20:55:59 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_slider_is_adjustable_till_the_value -->
+        <test-method signature="validate_the_slider_value_and_input_value()[pri:4, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:55:59 IST" name="validate_the_slider_value_and_input_value" finished-at="2024-11-26T20:55:59 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_slider_value_and_input_value -->
+        <test-method signature="verify_the_slider_input_value_updatable()[pri:5, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:55:59 IST" name="verify_the_slider_input_value_updatable" finished-at="2024-11-26T20:56:00 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_slider_input_value_updatable -->
+        <test-method signature="validate_the_slidervalue_with_updated_sliderinput()[pri:6, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:56:00 IST" name="validate_the_slidervalue_with_updated_sliderinput" finished-at="2024-11-26T20:56:00 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_slidervalue_with_updated_sliderinput -->
+        <test-method signature="verify_the_cptCodes_are_clickable()[pri:7, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:56:00 IST" name="verify_the_cptCodes_are_clickable" finished-at="2024-11-26T20:56:02 IST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_cptCodes_are_clickable -->
+        <test-method signature="verify_the_total_recurring_reimbursement()[pri:8, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:56:02 IST" name="verify_the_total_recurring_reimbursement" finished-at="2024-11-26T20:56:02 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_total_recurring_reimbursement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fitpeo.testcase.TC002_RevenueCalculatorTest@2fea7088]" started-at="2024-11-26T20:56:02 IST" name="tearDown" finished-at="2024-11-26T20:56:02 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fitpeo.testcase.TC002_RevenueCalculatorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

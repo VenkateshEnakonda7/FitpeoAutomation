@@ -1,0 +1,41 @@
+20:40:22:398 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\venkatesh\eclipse-workspace\FitpeoAutomation\crossbrowsertesting.xml"
+20:40:22:937 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\venkatesh\eclipse-workspace\FitpeoAutomation\crossbrowsertesting.xml
+
+20:40:31:921 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+20:40:33:344 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+20:40:35:781 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+20:40:37:460 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC001_HomePageTest - Successfully navigated to home page
+20:40:37:610 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC001_HomePageTest - Successfully navigated to home page
+20:40:43:607 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+20:40:44:057 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+20:40:44:828 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC001_HomePageTest - Successfully navigated to home page
+20:40:44:839 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC001_HomePageTest - Successfully navigated to home page
+20:40:47:775 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+20:40:52:723 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+20:40:55:251 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
+20:40:55:287 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
+20:40:55:362 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+20:40:55:389 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+20:40:56:818 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider is adjusted to the preffered value
+20:40:57:178 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider is adjusted to the preffered value
+20:41:00:120 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider input value is successfuly updated
+20:41:00:419 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider input value is successfuly updated
+20:41:04:711 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+20:41:05:729 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+20:41:07:572 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
+20:41:07:592 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
+20:41:07:615 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+20:41:07:646 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+20:41:08:194 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider is adjusted to the preffered value
+20:41:08:903 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider is adjusted to the preffered value
+20:41:09:826 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider input value is successfuly updated
+20:41:10:395 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider input value is successfuly updated
+20:41:10:475 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - validation is successful for updated slider value and slider input value
+20:41:10:493 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - validation is successful for updated slider value and slider input value
+20:41:14:022 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - selected checkbox of cptcodes are clicked successfully
+20:41:14:290 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - selected checkbox of cptcodes are clicked successfully
+20:42:17:508 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - selected checkbox of cptcodes are clicked successfully
+20:42:27:528 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - selected checkbox of cptcodes are clicked successfully
+20:43:45:798 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+20:43:47:938 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
