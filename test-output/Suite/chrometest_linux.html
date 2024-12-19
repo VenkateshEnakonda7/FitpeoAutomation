@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>chrometest_linux</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 26 20:40:22 IST 2024</td>
+<td>Started on:</td><td>Wed Nov 27 10:18:44 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>114 seconds (114560 ms)</td>
+<tr><td>Total time:</td><td>252 seconds (252984 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,95 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_input_value_updatable()'><b>verify_the_slider_input_value_updatable</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, findElement {using=xpath, value=//input[@aria-invalid=&apos;false&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at com.fitpeo.pageobject.RevenueCalculatorPage.updateTheTextField(RevenueCalculatorPage.java:99)
+	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_input_value_updatable(TC002_RevenueCalculatorTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace668442661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace668442661'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, findElement {using=xpath, value=//input[@aria-invalid=&apos;false&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at com.fitpeo.pageobject.RevenueCalculatorPage.updateTheTextField(RevenueCalculatorPage.java:99)
+	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_input_value_updatable(TC002_RevenueCalculatorTest.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
+<tr>
 <td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.validate_the_slidervalue_with_updated_sliderinput()'><b>validate_the_slidervalue_with_updated_sliderinput</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
-<td><div><pre>java.lang.AssertionError: expected [560] but found [565]
+<td><div><pre>java.lang.AssertionError: expected [560] but found [Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, findElements {using=xpath, value=//input[@aria-invalid=&apos;false&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]
 	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.validate_the_slidervalue_with_updated_sliderinput(TC002_RevenueCalculatorTest.java:85)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace444524361", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace444524361'><pre>java.lang.AssertionError: expected [560] but found [565]
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1824060636", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1824060636'><pre>java.lang.AssertionError: expected [560] but found [Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, findElements {using=xpath, value=//input[@aria-invalid=&apos;false&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -114,8 +193,45 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>1</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
+<td>0</td>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
+<tr>
+<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_navigation_of_revenue_calculator()'><b>verify_navigation_of_revenue_calculator</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_navigation_of_revenue_calculator(TC002_RevenueCalculatorTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1784743076", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1784743076'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_navigation_of_revenue_calculator(TC002_RevenueCalculatorTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>3</td>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
 <tr>
 <td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_total_recurring_reimbursement()'><b>verify_the_total_recurring_reimbursement</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
 <td><div><pre>java.lang.AssertionError: null
@@ -125,8 +241,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace997667503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace997667503'><pre>java.lang.AssertionError: null
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace863444575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace863444575'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_total_recurring_reimbursement(TC002_RevenueCalculatorTest.java:124)
@@ -152,18 +268,30 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
 <tr>
 <td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.validate_the_slider_value_and_input_value()'><b>validate_the_slider_value_and_input_value</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
-<td><div><pre>java.lang.AssertionError: expected [820] but found [1443]
+<td><div><pre>java.lang.AssertionError: expected [820] but found [java.util.concurrent.TimeoutException
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [46b342d4506c3ad3f738781c533a1b35, isElementDisplayed {id=f.B00A2E0AE3E67119FB128F1A8C1D06D4.d.B7FAED056B48E22C18EFCC924E8F6547.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (46b342d4506c3ad3f738781c533a1b35)] -&gt; xpath: //input[@aria-invalid=&apos;false&apos;]]]
 	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.validate_the_slider_value_and_input_value(TC002_RevenueCalculatorTest.java:58)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace253007032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace253007032'><pre>java.lang.AssertionError: expected [820] but found [1443]
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace740025474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace740025474'><pre>java.lang.AssertionError: expected [820] but found [java.util.concurrent.TimeoutException
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [46b342d4506c3ad3f738781c533a1b35, isElementDisplayed {id=f.B00A2E0AE3E67119FB128F1A8C1D06D4.d.B7FAED056B48E22C18EFCC924E8F6547.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (46b342d4506c3ad3f738781c533a1b35)] -&gt; xpath: //input[@aria-invalid=&apos;false&apos;]]]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -192,8 +320,200 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>1</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
+<td>180</td>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
+<tr>
+<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_is_adjustable_till_the_value()'><b>verify_the_slider_is_adjustable_till_the_value</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
+<td><div><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e209c36-a7c0-4dda-aab7-deb939a31afb, actions {actions=[org.openqa.selenium.interactions.Sequence@101e4d6a]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:debuggerAddress: 127.0.0.1:1614, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9288, moz:profile: C:\Users\VENKAT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1614/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e209c36-a7c0-4dda-aab7-deb939a31afb
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+	at java.base/java.util.Map.forEach(Map.java:713)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+	at org.openqa.selenium.json.Json.toJson(Json.java:133)
+	at org.openqa.selenium.json.Json.toJson(Json.java:119)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at com.fitpeo.pageobject.RevenueCalculatorPage.adjustTheSliderTo(RevenueCalculatorPage.java:85)
+	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_is_adjustable_till_the_value(TC002_RevenueCalculatorTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+		at org.openqa.selenium.json.Json.toJson(Json.java:131)
+		... 32 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+	... 53 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class=&apos;MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-1sfugkh&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e209c36-a7c0-4dda-aab7-deb939a31afb, findElement {using=xpath, value=//span[@class=&apos;MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-1sfugkh&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:debuggerAddress: 127.0.0.1:1614, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9288, moz:profile: C:\Users\VENKAT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1614/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e209c36-a7c0-4dda-aab7-deb939a31afb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	... 55 more
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1414516340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1414516340'><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e209c36-a7c0-4dda-aab7-deb939a31afb, actions {actions=[org.openqa.selenium.interactions.Sequence@101e4d6a]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:debuggerAddress: 127.0.0.1:1614, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9288, moz:profile: C:\Users\VENKAT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1614/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e209c36-a7c0-4dda-aab7-deb939a31afb
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+	at java.base/java.util.Map.forEach(Map.java:713)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+	at org.openqa.selenium.json.Json.toJson(Json.java:133)
+	at org.openqa.selenium.json.Json.toJson(Json.java:119)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at com.fitpeo.pageobject.RevenueCalculatorPage.adjustTheSliderTo(RevenueCalculatorPage.java:85)
+	at com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_is_adjustable_till_the_value(TC002_RevenueCalculatorTest.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+		at org.openqa.selenium.json.Json.toJson(Json.java:131)
+		... 32 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+	... 53 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class=&apos;MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-1sfugkh&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e209c36-a7c0-4dda-aab7-deb939a31afb, findElement {using=xpath, value=//span[@class=&apos;MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-1sfugkh&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:debuggerAddress: 127.0.0.1:1614, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9288, moz:profile: C:\Users\VENKAT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1614/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e209c36-a7c0-4dda-aab7-deb939a31afb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 55 more
+</pre></div></td>
+<td>22</td>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -204,35 +524,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_cptCodes_are_clickable()'><b>verify_the_cptCodes_are_clickable</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
+<td title='com.fitpeo.testcase.TC001_HomePageTest.verify_navigation_of_homepage()'><b>verify_navigation_of_homepage</b><br>Test class: com.fitpeo.testcase.TC001_HomePageTest</td>
 <td></td>
-<td>76</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
+<td>0</td>
+<td>com.fitpeo.testcase.TC001_HomePageTest@53f48368</td></tr>
 <tr>
 <td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_page_is_scrollable_till_the_slider()'><b>verify_page_is_scrollable_till_the_slider</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
 <td></td>
+<td>12</td>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
+<tr>
+<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_cptCodes_are_clickable()'><b>verify_the_cptCodes_are_clickable</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
+<td></td>
 <td>0</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
-<tr>
-<td title='com.fitpeo.testcase.TC001_HomePageTest.verify_navigation_of_homepage()'><b>verify_navigation_of_homepage</b><br>Test class: com.fitpeo.testcase.TC001_HomePageTest</td>
-<td></td>
-<td>3</td>
-<td>com.fitpeo.testcase.TC001_HomePageTest@30f5a68a</td></tr>
-<tr>
-<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_input_value_updatable()'><b>verify_the_slider_input_value_updatable</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
-<td></td>
-<td>2</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
-<tr>
-<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_the_slider_is_adjustable_till_the_value()'><b>verify_the_slider_is_adjustable_till_the_value</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
-<td></td>
-<td>1</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
-<tr>
-<td title='com.fitpeo.testcase.TC002_RevenueCalculatorTest.verify_navigation_of_revenue_calculator()'><b>verify_navigation_of_revenue_calculator</b><br>Test class: com.fitpeo.testcase.TC002_RevenueCalculatorTest</td>
-<td></td>
-<td>2</td>
-<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@1e1d3956</td></tr>
+<td>com.fitpeo.testcase.TC002_RevenueCalculatorTest@24d4d7c9</td></tr>
 </table><p>
 </body>
 </html>

@@ -8,11 +8,24 @@
       <class name="com.fitpeo.testcase.TC002_RevenueCalculatorTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_the_cptCodes_are_clickable"/>
           <include name="verify_the_total_recurring_reimbursement"/>
+          <include name="verify_page_is_scrollable_till_the_slider"/>
+          <include name="verify_the_slider_is_adjustable_till_the_value"/>
+          <include name="verify_navigation_of_revenue_calculator"/>
           <include name="setUp"/>
+          <include name="verify_the_slider_input_value_updatable"/>
+          <include name="validate_the_slidervalue_with_updated_sliderinput"/>
           <include name="validate_the_slider_value_and_input_value"/>
         </methods>
       </class> <!-- com.fitpeo.testcase.TC002_RevenueCalculatorTest -->
+      <class name="com.fitpeo.testcase.TC001_HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_navigation_of_homepage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.fitpeo.testcase.TC001_HomePageTest -->
     </classes>
   </test> <!-- firefoxtest(failed) -->
   <test thread-count="5" parallel="tests" name="firefoxtest_linux(failed)">
@@ -22,28 +35,46 @@
       <class name="com.fitpeo.testcase.TC002_RevenueCalculatorTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_the_cptCodes_are_clickable"/>
           <include name="verify_the_total_recurring_reimbursement"/>
+          <include name="verify_page_is_scrollable_till_the_slider"/>
+          <include name="verify_the_slider_is_adjustable_till_the_value"/>
+          <include name="verify_navigation_of_revenue_calculator"/>
           <include name="setUp"/>
+          <include name="verify_the_slider_input_value_updatable"/>
+          <include name="validate_the_slidervalue_with_updated_sliderinput"/>
           <include name="validate_the_slider_value_and_input_value"/>
         </methods>
       </class> <!-- com.fitpeo.testcase.TC002_RevenueCalculatorTest -->
+      <class name="com.fitpeo.testcase.TC001_HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_navigation_of_homepage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.fitpeo.testcase.TC001_HomePageTest -->
     </classes>
   </test> <!-- firefoxtest_linux(failed) -->
-  <test thread-count="5" parallel="tests" name="chrometest_linux(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="edgetest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="com.fitpeo.testcase.TC002_RevenueCalculatorTest">
         <methods>
           <include name="tearDown"/>
           <include name="verify_the_total_recurring_reimbursement"/>
           <include name="setUp"/>
-          <include name="validate_the_slidervalue_with_updated_sliderinput"/>
-          <include name="validate_the_slider_value_and_input_value"/>
         </methods>
       </class> <!-- com.fitpeo.testcase.TC002_RevenueCalculatorTest -->
+      <class name="com.fitpeo.testcase.TC001_HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_navigation_of_homepage"/>
+        </methods>
+      </class> <!-- com.fitpeo.testcase.TC001_HomePageTest -->
     </classes>
-  </test> <!-- chrometest_linux(failed) -->
+  </test> <!-- edgetest(failed) -->
   <test thread-count="5" parallel="tests" name="chrometest(failed)">
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
@@ -53,23 +84,29 @@
           <include name="tearDown"/>
           <include name="verify_the_total_recurring_reimbursement"/>
           <include name="setUp"/>
+          <include name="verify_the_slider_input_value_updatable"/>
           <include name="validate_the_slidervalue_with_updated_sliderinput"/>
           <include name="validate_the_slider_value_and_input_value"/>
         </methods>
       </class> <!-- com.fitpeo.testcase.TC002_RevenueCalculatorTest -->
     </classes>
   </test> <!-- chrometest(failed) -->
-  <test thread-count="5" parallel="tests" name="edgetest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" parallel="tests" name="chrometest_linux(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.fitpeo.testcase.TC001_HomePageTest">
+      <class name="com.fitpeo.testcase.TC002_RevenueCalculatorTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_navigation_of_homepage"/>
+          <include name="verify_the_total_recurring_reimbursement"/>
+          <include name="verify_the_slider_is_adjustable_till_the_value"/>
+          <include name="verify_navigation_of_revenue_calculator"/>
           <include name="setUp"/>
+          <include name="verify_the_slider_input_value_updatable"/>
+          <include name="validate_the_slidervalue_with_updated_sliderinput"/>
+          <include name="validate_the_slider_value_and_input_value"/>
         </methods>
-      </class> <!-- com.fitpeo.testcase.TC001_HomePageTest -->
+      </class> <!-- com.fitpeo.testcase.TC002_RevenueCalculatorTest -->
     </classes>
-  </test> <!-- edgetest(failed) -->
+  </test> <!-- chrometest_linux(failed) -->
 </suite> <!-- Failed suite [Suite] -->

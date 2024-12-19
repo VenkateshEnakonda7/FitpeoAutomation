@@ -1,0 +1,42 @@
+10:13:34:728 [main] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - validation got successful for the slider value and slider text input value
+10:13:35:374 [main] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider input value is successfuly updated
+10:13:35:511 [main] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - validation is successful for updated slider value and slider input value
+10:13:38:503 [main] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - selected checkbox of cptcodes are clicked successfully
+10:13:38:726 [main] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully validated the total recurring reimbursement
+10:18:43:688 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\venkatesh\eclipse-workspace\FitpeoAutomation\crossbrowsertesting.xml"
+10:18:44:693 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\venkatesh\eclipse-workspace\FitpeoAutomation\crossbrowsertesting.xml
+
+10:18:50:728 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+10:18:52:623 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+10:18:55:677 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC001_HomePageTest - Successfully navigated to home page
+10:18:55:701 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC001_HomePageTest - Successfully navigated to home page
+10:19:02:459 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+10:19:17:855 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+10:19:18:240 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+10:19:22:055 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
+10:19:24:527 [TestNG-tests-5] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+10:19:34:809 [TestNG-tests-4] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+10:19:38:800 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - Browser is launched successfully
+10:19:41:429 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - successfully navigated to revenue calculator page
+10:19:41:600 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+10:19:42:549 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider is adjusted to the preffered value
+10:19:42:799 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - validation got successful for the slider value and slider text input value
+10:19:44:080 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider input value is successfuly updated
+10:19:44:221 [TestNG-tests-2] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - validation is successful for updated slider value and slider input value
+10:19:44:825 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - page is scrolled till the slider section
+10:19:46:537 [TestNG-tests-1] INFO  com.fitpeo.testcase.TC002_RevenueCalculatorTest - slider is adjusted to the preffered value
+10:19:46:820 [TestNG-tests-3] INFO  com.fitpeo.testcase.TC001_HomePageTest - Browser is launched successfully
+10:22:57:584 [TestNG-tests-2] ERROR com.fitpeo.testcase.TC002_RevenueCalculatorTest - java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [46b342d4506c3ad3f738781c533a1b35, getElementText {id=f.B00A2E0AE3E67119FB128F1A8C1D06D4.d.B7FAED056B48E22C18EFCC924E8F6547.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (46b342d4506c3ad3f738781c533a1b35)] -> xpath: //*[@class='MuiBox-root css-1p19z09']//p[@class='MuiTypography-root MuiTypography-body1 inter css-1s3unkt']]
+10:22:57:651 [TestNG-tests-1] ERROR com.fitpeo.testcase.TC002_RevenueCalculatorTest - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, findElement {using=xpath, value=//input[@aria-invalid='false']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65214}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65214/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}

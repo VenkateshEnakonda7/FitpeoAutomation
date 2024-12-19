@@ -15,8 +15,6 @@ public class HomePage extends BasePage{
 	
 	
 	
-	
-	
 	public String validateHomepage() {
 		try {
 			return validHomePage.getText();			
